@@ -1,10 +1,10 @@
 import turtle
 
-import assignmet
+import project
 
-def test_rectangle_will_fit()
-    assigment.rectangle_will_fit(10,20)
-    assert(turtle.xcor()==10)
-    assert(turtle.ycor()==20)
+def test_rectangle_will_fit():
+    project.test_rectangle_will_fit(0,0)
+    assert(turtle.xcor()==0)
+    assert(turtle.ycor()==0)
     assert(turtle.length()==400)
     assert(turtle.height()==400)
