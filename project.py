@@ -30,6 +30,16 @@ for i in range(3):
 turtle.end_fill()
 
 
+#def cricle():
+turtle.penup()
+turtle.goto(10,-200)
+turtle.pendown()
+turtle.color("green")
+turtle.begin_fill()
+turtle.circle(80)
+turtle.end_fill()
+
+
 
 
 
