@@ -58,3 +58,10 @@ turtle.left(90)
 turtle.forward(80)
 turtle.left(90)
 turtle.end_fill()
+
+
+print ("press x to exit the drawing screen")
+
+
+screen.exitonclick()
+
