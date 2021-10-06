@@ -40,6 +40,21 @@ turtle.circle(80)
 turtle.end_fill()
 
 
+#def rectangle():
+turtle.penup()
+turtle.goto(200,-100)
+turtle.pendown()
+turtle.color("red")
+turtle.begin_fill()
+turtle.forward(150)
+turtle.left(90)
+turtle.forward(80)
+turtle.left(90)
+turtle.forward(150)
+turtle.left(90)
+turtle.forward(80)
+turtle.left(90)
+turtle.end_fill()
 
 
 
