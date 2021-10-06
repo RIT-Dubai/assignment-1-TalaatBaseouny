@@ -18,6 +18,18 @@ turtle.begin_fill()
 turtle.fillcolor()
 
 
+#def traingle():
+turtle.penup()
+turtle.goto(-360,200)
+turtle.pendown()
+turtle.color("blue")
+turtle.begin_fill()
+for i in range(3):
+    turtle.forward(225)
+    turtle.left(120)
+turtle.end_fill()
+
+
 
 
 
