@@ -3,8 +3,15 @@ import turtle
 import project
 
 def test_rectangle_will_fit():
-    project.test_rectangle_will_fit(0,0)
-    assert(turtle.xcor()==0)
-    assert(turtle.ycor()==0)
-    assert(turtle.length()==400)
-    assert(turtle.height()==400)
+    project.test_rectangle_will_fit(200,-100)
+    assert(turtle.xcor()==200)
+    assert(turtle.ycor()==-100)
+
+
+def test_triangle_will_fit():
+    project.test_triangle_will_fil(-360,200)
+    assert(turtle.xcor()==-360)
+    assert(turtle.ycor()==200)
+
+
+
