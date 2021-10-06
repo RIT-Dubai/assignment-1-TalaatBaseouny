@@ -14,4 +14,7 @@ def test_triangle_will_fit():
     assert(turtle.ycor()==200)
 
 
-
+def test_cricle_will_fit():
+    project.test_cricle_will_fit(10,-200)
+    assert(turtle.xcor()==10)
+    assert(turtle.ycor()==-200)
