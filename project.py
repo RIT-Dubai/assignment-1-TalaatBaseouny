@@ -47,7 +47,7 @@ turtle.end_fill()
 turtle.penup()
 
 
-def draw_rectangle (s,h,a,a2,c):
+def draw_rectangle (red,x=200,y=-100):
    turtle.penup()
 turtle.goto(200,-100)
 turtle.pendown()
