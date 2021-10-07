@@ -8,5 +8,9 @@ def test_draw_triangle():
     assert(turtle.ycor()==200)
 
 
+def test_draw_rectangle():
+    project.test_draw_rectangle(200,-100)
+    assert(turtle.xcor()==200)
+    assert(turtle.ycor()==-100)
 
 
