@@ -14,3 +14,7 @@ def test_draw_rectangle():
     assert(turtle.ycor()==-100)
 
 
+def test_draw_circle():
+    project.test_draw_circle(10,-200)
+    assert(turtle.xcor()==-200)
+    assert(turtle.ycor()==10)
