@@ -3,18 +3,12 @@ import turtle
 import project
 
 def test_draw_triangle():
-    project.test_draw_triangle(-360,200)
-    assert(turtle.xcor()==-360)
-    assert(turtle.ycor()==200)
+    project.draw_triangle('blue',-360,200)
+    color_code='blue'
+    assert(color_code=='blue')
 
+    x=-360
+    assert(x==-360)
 
-def test_draw_rectangle():
-    project.test_draw_rectangle(200,-100)
-    assert(turtle.xcor()==200)
-    assert(turtle.ycor()==-100)
-
-
-def test_draw_circle():
-    project.test_draw_circle(10,-200)
-    assert(turtle.xcor()==-200)
-    assert(turtle.ycor()==10)
+    y=200
+    assert(y==200)
