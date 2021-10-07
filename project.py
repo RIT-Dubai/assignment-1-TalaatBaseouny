@@ -17,8 +17,10 @@ turtle.goto(-400,-400)
 turtle.penup()
 turtle.goto(0,0)
 turtle.pendown()
+turtle.penup()
 turtle.begin_fill()
 turtle.fillcolor()
+turtle.penup()
 
 #command that draws square
 def draw_triangle (s,c):
@@ -31,6 +33,7 @@ for i in range(3):
     turtle.forward(225)
     turtle.left(120)
 turtle.end_fill()
+turtle.penup()
 
 
 def draw_circle(c ,l, w):
@@ -41,6 +44,7 @@ turtle.color("green")
 turtle.begin_fill()
 turtle.circle(80)
 turtle.end_fill()
+turtle.penup()
 
 
 def draw_rectangle (s,h,a,a2,c):
@@ -58,7 +62,7 @@ turtle.left(90)
 turtle.forward(80)
 turtle.left(90)
 turtle.end_fill()
-
+turtle.penup()
 
 print ("press x to exit the drawing screen")
 
