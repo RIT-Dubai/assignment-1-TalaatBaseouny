@@ -24,3 +24,17 @@ def test_draw_circle():
 
     y=-200
     assert(y==-200)
+
+
+def test_draw_rectangle():
+    project.draw_rectangle('red',200, -100)
+    color_code='red'
+    assert(color_code=='red')
+
+
+    x=200
+    assert(x==200)
+
+
+    y=-100
+    assert(y==-100)
