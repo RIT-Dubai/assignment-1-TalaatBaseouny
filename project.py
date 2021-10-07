@@ -36,7 +36,7 @@ turtle.end_fill()
 turtle.penup()
 
 
-def draw_circle(c ,l, w):
+def draw_circle(green ,x=10, y=-200):
     turtle.penup()
 turtle.goto(10,-200)
 turtle.pendown()
