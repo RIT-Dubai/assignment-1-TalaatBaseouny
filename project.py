@@ -22,7 +22,8 @@ turtle.fillcolor()
 turtle.penup()
 
 #command that draws square
-def draw_triangle (s,c):
+def draw_triangle (blue,x=-360,y=200 ):
+
    turtle.penup()
 turtle.goto(-360,200)
 turtle.pendown()
