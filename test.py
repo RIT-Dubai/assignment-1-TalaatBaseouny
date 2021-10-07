@@ -12,3 +12,15 @@ def test_draw_triangle():
 
     y=200
     assert(y==200)
+
+
+def test_draw_circle():
+    project.draw_circle('green', 10, -200)
+    color_code='green'
+    assert(color_code=='green')
+
+    x=10
+    assert(x==10)
+
+    y=-200
+    assert(y==-200)
